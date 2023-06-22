@@ -4,9 +4,9 @@ import localFont from 'next/font/local';
 import Nav from './nav';
 import Providers from './providers';
 
-const inter = localFont({ src: "../fonts/Inter.woff2", display: "swap", variable: "--font-montserrat" });
+const inter = localFont({ src: "../fonts/Inter.woff2", display: "swap", variable: "--font-inter" });
 const montserrat = localFont({ src: "../fonts/Montserrat.woff2", display: "swap", variable: "--font-montserrat" });
-const rubik = localFont({ src: "../fonts/Rubik.woff2", display: "swap", variable: "--font-montserrat" });
+const rubik = localFont({ src: "../fonts/Rubik.woff2", display: "swap", variable: "--font-rubik" });
 
 export const metadata = {
   title: 'Lofu Studio',

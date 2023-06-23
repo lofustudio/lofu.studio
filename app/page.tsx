@@ -17,7 +17,7 @@ export default function Home() {
           <Balancer>
 
             <p className="text-neutral-500 dark:text-neutral-400">
-              Lofu Studio is a small group of software makers, design thinkers, and product builders.
+              Lofu Studio is a small group of software makers, design thinkers, and product builders. <br />
               <span className="hidden sm:inline-block">
                 Privacy, security, and transparency are our core values and we strive to help build a better digital world.
               </span>

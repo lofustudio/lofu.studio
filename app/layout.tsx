@@ -23,7 +23,9 @@ export default function RootLayout({
       <body className="w-full p-2 bg-neutral-100 dark:bg-black">
         <Providers>
           <Nav />
-          {children}
+          <div className="flex flex-col items-center justify-center w-full">
+            {children}
+          </div>
         </Providers>
       </body>
     </html>

@@ -8,21 +8,21 @@ export default function Home() {
     <main className="container flex flex-col mx-auto my-10 mt-32 md:mt-60">
       <div className="flex flex-col items-center gap-4 p-2 text-center">
         <div className="flex flex-col items-center gap-4">
-          <Image src="/assets/dark.png" alt="logo" width={192} height={192} />
+          <Image src="/assets/light.png" alt="logo" width={192} height={192} className="dark:hidden" />
+          <Image src="/assets/dark.png" alt="logo" width={192} height={192} className="hidden dark:block" />
           <div>
             <h1 className="text-3xl font-bold sm:text-4xl md:text-5xl font-display">
               Only up from here.
             </h1>
           </div>
-          <Balancer>
-
-            <p className="text-neutral-500 dark:text-neutral-400">
+          <p className="text-neutral-500 dark:text-neutral-400">
+            <Balancer>
               Lofu Studio is a small group of software makers, design thinkers, and product builders. <br />
               <span className="hidden sm:inline-block">
                 Privacy, security, and transparency are our core values and we strive to help build a better digital world.
               </span>
-            </p>
-          </Balancer>
+            </Balancer>
+          </p>
 
         </div>
         <div className="flex flex-row gap-4">
@@ -38,6 +38,6 @@ export default function Home() {
           </Link>
         </div>
       </div>
-    </main>
+    </main >
   )
 }

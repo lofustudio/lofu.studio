@@ -20,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${montserrat.variable} ${rubik.variable} ${inter.variable}`}>
-      <body className="bg-neutral-100 dark:bg-black">
+      <body className="w-full bg-neutral-100 dark:bg-black">
         <Providers>
           <Nav />
           {children}

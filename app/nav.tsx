@@ -15,7 +15,7 @@ export default function Nav() {
                     <div className="flex flex-row items-center gap-2">
                         <Image width={32} height={32} src="/assets/dark.png" alt="logo" className="hidden dark:block" />
                         <Image width={32} height={32} src="/assets/light.png" alt="logo" className="dark:hidden" />
-                        <span className="text-xl font-semibold">lofu</span>
+                        {/* <span className="text-xl font-semibold">lofu</span> */}
                     </div>
 
                     <div className="hidden gap-2 sm:flex">

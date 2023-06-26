@@ -26,6 +26,13 @@ export default function RootLayout({
           <div className="flex flex-col items-center justify-center w-full">
             {children}
           </div>
+          <div className='items-center justify-center w-full text-center'>
+            <p>
+              <span className="text-neutral-500 dark:text-neutral-400">
+                Designed and developed by @tygerxqt
+              </span>
+            </p>
+          </div>
         </Providers>
       </body>
     </html>

@@ -21,6 +21,11 @@ export default function Nav() {
                     </div>
 
                     <div className="hidden gap-2 sm:flex">
+                        <Link href="/">
+                            <Button variant="link">
+                                About
+                            </Button>
+                        </Link>
                         <DropdownMenu>
                             <DropdownMenuTrigger asChild className="outline-none">
                                 <Button variant="link">
@@ -50,11 +55,6 @@ export default function Nav() {
                         <Link href="/blog">
                             <Button variant="link">
                                 Blog
-                            </Button>
-                        </Link>
-                        <Link href="/about">
-                            <Button variant="link">
-                                About
                             </Button>
                         </Link>
                     </div>

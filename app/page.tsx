@@ -118,29 +118,29 @@ export default function Home() {
           <div className="flex flex-col items-center gap-4 pt-2">
             <div className="flex flex-row gap-4">
               <Link href="https://discord.gg/2GQEwVbkHZ">
-                <Button className="flex flex-row gap-2" size="sm">
+                <Button className="flex flex-row items-center gap-2" size="sm">
                   <FaDiscord className="w-5 h-5" /> Discord
                 </Button>
               </Link>
               <Link href="https://twitter.com/lofustudio">
-                <Button className="flex flex-row gap-2" size="sm">
+                <Button className="flex flex-row items-center gap-2" size="sm">
                   <FaTwitter className="w-5 h-5" /> Twitter
                 </Button>
               </Link>
               <Link href="https://github.com/lofustudio">
-                <Button className="flex flex-row gap-2" size="sm">
+                <Button className="flex flex-row items-center gap-2" size="sm">
                   <FaGithub className="w-5 h-5" /> GitHub
                 </Button>
               </Link>
             </div>
             <div className="flex flex-row gap-4">
               <Link href="https://youtube.com/@lofustudio">
-                <Button className="flex flex-row gap-2" size="sm">
+                <Button className="flex flex-row items-center gap-2" size="sm">
                   <FaYoutube className="w-5 h-5" /> Youtube
                 </Button>
               </Link>
               <Link href="https://instagram.com/lofustudio">
-                <Button className="flex flex-row gap-2" size="sm">
+                <Button className="flex flex-row items-center gap-2" size="sm">
                   <FaInstagram className="w-5 h-5" /> Instagram
                 </Button>
               </Link>
@@ -148,6 +148,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </main >
+    </main>
   )
 }

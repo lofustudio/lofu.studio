@@ -3,6 +3,7 @@ import './globals.css'
 import localFont from 'next/font/local';
 import Nav from './nav';
 import Providers from './providers';
+import Link from 'next/link';
 
 const inter = localFont({ src: "../fonts/Inter.woff2", display: "swap", variable: "--font-inter" });
 const montserrat = localFont({ src: "../fonts/Montserrat.woff2", display: "swap", variable: "--font-montserrat" });
@@ -20,18 +21,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${montserrat.variable} ${rubik.variable} ${inter.variable}`}>
-      <body className="w-full p-2 bg-neutral-100 dark:bg-black">
+      <body className="w-full bg-neutral-100 dark:bg-black">
         <Providers>
           <Nav />
-          <div className="flex flex-col items-center justify-center w-full">
+          <div className="flex flex-col items-center justify-center w-full p-2">
             {children}
-          </div>
-          <div className='items-center justify-center w-full text-center'>
-            <p>
-              <span className="text-neutral-500 dark:text-neutral-400">
-                Designed and developed by @tygerxqt
-              </span>
-            </p>
           </div>
         </Providers>
       </body>

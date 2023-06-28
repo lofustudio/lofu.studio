@@ -44,7 +44,7 @@ export default function Nav() {
                                     <span>Deck (Soon)</span>
                                 </DropdownMenuItem> */}
                                 <hr className="w-full border border-black/10 dark:border-white/10" />
-                                <Link href="https://github.com/orgs/lofustudio/repositories?type=source">
+                                <Link href="/projects">
                                     <DropdownMenuItem>
                                         <Layout className="w-4 h-4 mr-2" />
                                         <span>All projects</span>

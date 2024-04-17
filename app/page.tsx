@@ -149,33 +149,31 @@ export default function Home() {
                             and other members of the community. */}
                         </Balancer>
                     </p>
-                    <div className="flex flex-col items-center gap-4 pt-2">
-                        <div className="flex flex-row gap-4">
-                            <Link href="https://twitter.com/lofustudio">
-                                <Button
-                                    className="flex flex-row items-center gap-2"
-                                    size="sm"
-                                >
-                                    <Twitter className="w-5 h-5" /> Twitter
-                                </Button>
-                            </Link>
-                            <Link href="https://github.com/lofustudio">
-                                <Button
-                                    className="flex flex-row items-center gap-2"
-                                    size="sm"
-                                >
-                                    <GitHub className="w-5 h-5" /> GitHub
-                                </Button>
-                            </Link>
-                            <Link href="https://instagram.com/lofustudio">
-                                <Button
-                                    className="flex flex-row items-center gap-2"
-                                    size="sm"
-                                >
-                                    <Instagram className="w-5 h-5" /> Instagram
-                                </Button>
-                            </Link>
-                        </div>
+                    <div className="flex flex-row flex-wrap items-center justify-center gap-4 pt-2">
+                        <Link href="https://twitter.com/lofustudio">
+                            <Button
+                                className="flex flex-row items-center gap-2"
+                                size="sm"
+                            >
+                                <Twitter className="w-5 h-5" /> Twitter
+                            </Button>
+                        </Link>
+                        <Link href="https://github.com/lofustudio">
+                            <Button
+                                className="flex flex-row items-center gap-2"
+                                size="sm"
+                            >
+                                <GitHub className="w-5 h-5" /> GitHub
+                            </Button>
+                        </Link>
+                        <Link href="https://instagram.com/lofustudio">
+                            <Button
+                                className="flex flex-row items-center gap-2"
+                                size="sm"
+                            >
+                                <Instagram className="w-5 h-5" /> Instagram
+                            </Button>
+                        </Link>
                     </div>
                 </div>
             </div>

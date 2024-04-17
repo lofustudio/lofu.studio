@@ -1,10 +1,18 @@
-const { withContentlayer } = require('next-contentlayer')
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-        domains: ["tygr.dev"]
-    }
-}
+        remotePatterns: [{ hostname: "tygr.dev" }],
+    },
+    async redirects() {
+        return [
+            {
+                source: "/projects",
+                destination:
+                    "https://github.com/orgs/lofustudio/repositories?type=source",
+                permanent: false,
+            },
+        ];
+    },
+};
 
-module.exports = withContentlayer(nextConfig)
+module.exports = nextConfig;
